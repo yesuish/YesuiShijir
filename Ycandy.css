@@ -1,0 +1,345 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  .hdr {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    margin-bottom: 100px;
+  }
+  .header {
+    width: 100%;
+    height: 150px;
+    background-color: #ffd7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 20%;
+    height: 100%;
+    background-color: #ffd7d7;
+    justify-content: center;
+    align-content: center;
+    display:flex;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .buttons1 {
+    width: 10%;
+    height: 100%;
+    background-color: #a56c6c;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons2 {
+    width: 10%;
+    height: 100%;
+    background-color: #a56c6c;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons3 {
+    width: 10%;
+    height: 100%;
+    background-color: #a56c6c;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons4 {
+    width: 10%;
+    height: 100%;
+    background-color: #a56c6c;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons5 {
+    width: 10%;
+    height: 100%;
+    background-color: #a56c6c;
+    border: none;
+    cursor: pointer;
+  }
+  .searchbuttons {
+    width: 15%;
+    height: 70%;
+    background-color: #a56c6c;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .lowerheader {
+    width: 100%;
+    height: 50px;
+    background-color: #a56c6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerheader .icon i{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: var(--black);
+    cursor: pointer;
+}
+  .lowerheader .search{
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    width: 50%;
+    right: 0;
+    height: 5rem;
+    position:  absolute;
+
+}
+.lowerheader .search input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: var(--white);
+    color: var(--black);
+    margin-right: 7%;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+.lowerheader .search.active{
+    display: inline-block;
+}
+  .container {
+    width: 100%;
+    height: 300vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  }
+  .left {
+    width: 15%;
+    height: 100vh;
+    background-color: #f3b6b6;
+    margin-top: 200px;
+    position: fixed;
+    border: #f3b6b6;
+  }
+  
+  .right {
+    width: 85%;
+    height: 250vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    margin-left: 286px;
+  }
+  
+  .one{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+  
+  }
+  .two{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+  }
+  .three{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+  }
+  .four{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+  }
+  .five{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+  }
+  .btn {
+        border: none;
+        background: none;
+        cursor: pointer;
+        transition: 0.8s;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+  }
+  .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover{
+    color: rgb(97, 0, 53);
+  }
+  .btn1 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+  }
+  .btn2 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+  }
+  .btn3{
+    width: 100%;
+    height: 10%;
+    color: rgb(255, 255, 255);
+  }
+  .btn4 {
+    width: 100%;
+    height: 10%;
+    color: rgb(255, 255, 255);
+  }
+  .btn5 {
+    width: 100%;
+    height: 10%;
+    color: rgb(255, 255, 255);
+  }
+  .h2 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .btn::before{
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #68b7fc;
+    z-index: -1;
+    transition: 0.8s;
+  }
+  .btn1::before,.btn2::before,.btn3::before,.btn5::before,.btn4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+  }
+  .btn1:hover:before,.btn2:hover::before,.btn3:hover::before,.btn5:hover::before,.btn4:hover::before{
+    bottom: 0;
+    height: 180%;
+  }
+  .a {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .b {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .c {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .d {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .e {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .f {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .g {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .h {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .i {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .j {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .k {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .l {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .m {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .n {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .o {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .p {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .q {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .r {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .s {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .t {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+ .button h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .footer{
+    
+    width: 85%;
+    height: 300px;
+    background-color: #a56c6c;
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    color: white;
+ }
